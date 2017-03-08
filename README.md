@@ -4,15 +4,16 @@ Arrays vs Collections in CSharp C#
 
 The following C# codes shows the example of Classes and highly advanced collections.
 
-the code in Animal.cs
+**the code in Animal.cs**
 ```C#
 namespace ArrayVSCollections
 {
-public abstract class Animal
-{
-protected string name;
-public string Name
-{
+ 
+  public abstract class Animal
+  {
+    protected string name;
+  public string Name
+  {
 get
 {
 return name;

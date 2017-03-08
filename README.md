@@ -1,11 +1,11 @@
-# CSharpClasses
+**# CSharpClasses**
 
 Arrays vs Collections in CSharp C#
 
 The following C# codes shows the example of Classes and highly advanced collections.
 
 the code in Animal.cs
-
+```C#
 namespace ArrayVSCollections
 {
 public abstract class Animal
@@ -37,8 +37,11 @@ Console.WriteLine("{0} has been fed.", name);
 }
 }
 
-The code in Cow.cs is as following:
+```
 
+**The code in Cow.cs is as following:**
+
+```C#
 namespace ArrayVSCollections
 {
 public class Cow : Animal
@@ -52,9 +55,10 @@ public Cow(string newName): base(newName)
 }
 }
 }
+```
 
-The code in Chicken.cs is as following:
-
+**The code in Chicken.cs is as following:**
+```C#
 namespace ArrayVSCollections
 {
 public class Chicken : Animal
@@ -68,8 +72,10 @@ public Chicken(string newName): base(newName)
 }
 }
 }
+```
 
-The code in Program.cs is as following:
+**The code in Program.cs is as following:**
+```C#
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -128,5 +134,5 @@ Console.ReadKey();
 }
 }
 }
-
+```
 Now run the Application

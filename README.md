@@ -23,21 +23,26 @@ namespace ArrayVSCollections
       {
         name = value;
       }
+      
      }
 
-public Animal()
-{
-name = "The animal with no name";
-}
-public Animal(string newName)
-{
-name = newName;
-}
-public void Feed()
-{
-Console.WriteLine("{0} has been fed.", name);
-}
-}
+     public Animal()
+     {
+       name = "The animal with no name";
+     }
+
+     public Animal(string newName)
+     {
+       name = newName;
+     }
+
+     public void Feed()
+     {
+       Console.WriteLine("{0} has been fed.", name);
+     }
+      
+  }
+
 }
 
 ```

@@ -1,8 +1,8 @@
 **# CSharpClasses**
 
-Arrays vs Collections in CSharp C#
+Arrays vs Collections in C#
 
-The following C# codes shows the example of Classes and highly advanced collections.
+C# Class inheritance and highly advanced collections.
 
 **the code in Animal.cs**
 ```C#
